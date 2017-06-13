@@ -29,7 +29,6 @@ public class BlockingIoExample {
         response = processRequest(request);
         out.println(response);
     }
-
     private String processRequest(String request){
         return "Processed";
     }
